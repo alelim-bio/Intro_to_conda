@@ -1,5 +1,3 @@
-markdown
-Copy code
 # Introduction to Conda
 
 This repository provides an introduction to Conda, a popular package and environment management system used in data science and scientific computing. The README.md file contains information about Conda, code snippets, and an example of creating a Conda environment in a SLURM environment.
