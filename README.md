@@ -89,15 +89,11 @@ python myscript.py
 ```
 
 ### Notes and Tips
-Use Conda environments to isolate and manage your project dependencies, making it easier to reproduce your work across different environments.
-
-When working on a team or sharing your code, provide an environment YAML file (environment.yml) to ensure consistent setups across collaborators.
-
-Regularly update your Conda installation and packages using the conda update command to benefit from the latest features and bug fixes.
-
-Conda supports creating environments for different programming languages, including Python, R, and Julia.
-
-You can create and manage environments with specific versions of Python and other packages to ensure compatibility with your code.
+ - Use Conda environments to isolate and manage your project dependencies, making it easier to reproduce your work across different environments.
+ - When working on a team or sharing your code, provide an environment YAML file (environment.yml) to ensure consistent setups across collaborators.
+ - Regularly update your Conda installation and packages using the conda update command to benefit from the latest features and bug fixes.
+ - Conda supports creating environments for different programming languages, including Python, R, and Julia.
+ - You can create and manage environments with specific versions of Python and other packages to ensure compatibility with your code.
 
 ### Additional Resources
 - [Conda User Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
