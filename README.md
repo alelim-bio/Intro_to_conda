@@ -59,7 +59,7 @@ conda env create -f environment.yml
 
 This will create a new environment based on the specifications in the YAML file.
 
-### Example: Creating a Conda Environment in a SLURM Environment
+## Example: Creating a Conda Environment in a SLURM Environment
 Here's an example of creating a Conda environment in a SLURM environment using a shell script:
 
 ```shell
