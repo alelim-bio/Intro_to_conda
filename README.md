@@ -100,8 +100,8 @@ Conda supports creating environments for different programming languages, includ
 You can create and manage environments with specific versions of Python and other packages to ensure compatibility with your code.
 
 ### Additional Resources
-[Conda User Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
-[Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
+- [Conda User Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
+- [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
 
 Feel free to explore this repository and refer to the code snippets and examples as you learn and work with Conda. If you have any questions or suggestions, feel free to open an issue or reach out to me.
 
