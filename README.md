@@ -33,7 +33,7 @@ To activate a Conda environment, use the conda activate command:
 conda activate myenv
 ```
 
-###Install Packages
+### Install Packages
 To install packages in a Conda environment, use the conda install command:
 
 ```shell
@@ -42,7 +42,7 @@ conda install numpy pandas matplotlib
 
 This will install the numpy, pandas, and matplotlib packages into the active environment.
 
-###Export and Share Environments
+### Export and Share Environments
 To export the current environment to a YAML file, use the conda env export command:
 
 ```shell
@@ -59,7 +59,7 @@ conda env create -f environment.yml
 
 This will create a new environment based on the specifications in the YAML file.
 
-###Example: Creating a Conda Environment in a SLURM Environment
+### Example: Creating a Conda Environment in a SLURM Environment
 Here's an example of creating a Conda environment in a SLURM environment using a shell script:
 
 ```shell
@@ -88,7 +88,7 @@ conda install numpy pandas matplotlib
 python myscript.py
 ```
 
-###Notes and Tips
+### Notes and Tips
 Use Conda environments to isolate and manage your project dependencies, making it easier to reproduce your work across different environments.
 
 When working on a team or sharing your code, provide an environment YAML file (environment.yml) to ensure consistent setups across collaborators.
@@ -99,7 +99,7 @@ Conda supports creating environments for different programming languages, includ
 
 You can create and manage environments with specific versions of Python and other packages to ensure compatibility with your code.
 
-###Additional Resources
+### Additional Resources
 [Conda User Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
 [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
 
