@@ -26,12 +26,14 @@ conda create --name myenv
 
 This will create a new environment named myenv with the default Python version and minimal packages.
 
+
 ### Activate a Conda Environment
 To activate a Conda environment, use the conda activate command:
 
 ```shell
 conda activate myenv
 ```
+
 
 ### Install Packages
 To install packages in a Conda environment, use the conda install command:
@@ -41,6 +43,7 @@ conda install numpy pandas matplotlib
 ```
 
 This will install the numpy, pandas, and matplotlib packages into the active environment.
+
 
 ### Export and Share Environments
 To export the current environment to a YAML file, use the conda env export command:
@@ -58,6 +61,7 @@ conda env create -f environment.yml
 ```
 
 This will create a new environment based on the specifications in the YAML file.
+
 
 ## Example: Creating a Conda Environment in a SLURM Environment
 Here's an example of creating a Conda environment in a SLURM environment using a shell script:
