@@ -11,6 +11,8 @@ Conda is an open-source package management system and environment management sys
 To install Conda, follow the official installation guide for your operating system:
 
 - [Conda Installation Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+- [HPCC SLURM Installation Example](./install_example)
+
 
 ## Basic Usage
 
