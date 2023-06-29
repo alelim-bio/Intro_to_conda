@@ -13,7 +13,6 @@ To install Conda, follow the official installation guide for your operating syst
 - [Conda Installation Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 - [HPCC SLURM Installation Example](./install_example)
 
-
 ## Basic Usage
 
 ### Create a Conda Environment
@@ -28,7 +27,7 @@ This will create a new environment named myenv with the default Python version a
 
 
 ### Activate a Conda Environment
-To activate a Conda environment, use the conda activate command:
+To activate a Conda environment, use the `conda activate` command:
 
 ```shell
 conda activate myenv
@@ -36,7 +35,7 @@ conda activate myenv
 
 
 ### Install Packages
-To install packages in a Conda environment, use the conda install command:
+To install packages in a Conda environment, use the `conda install` command:
 
 ```shell
 conda install numpy pandas matplotlib
@@ -46,7 +45,7 @@ This will install the numpy, pandas, and matplotlib packages into the active env
 
 
 ### Export and Share Environments
-To export the current environment to a YAML file, use the conda env export command:
+To export the current environment to a YAML file, use the `conda env export` command:
 
 ```shell
 conda env export > environment.yml
@@ -54,7 +53,7 @@ conda env export > environment.yml
 
 This will create a file named environment.yml containing a list of all packages and their versions in the current environment.
 
-To create a new environment from an exported YAML file, use the conda env create command:
+To create a new environment from an exported YAML file, use the `conda env create` command:
 
 ```shell
 conda env create -f environment.yml
@@ -64,6 +63,7 @@ This will create a new environment based on the specifications in the YAML file.
 
 
 ## Example: Creating a Conda Environment in a SLURM Environment
+
 Here's an example of creating a Conda environment in a SLURM environment using a shell script:
 
 ```shell
@@ -93,14 +93,16 @@ python myscript.py
 ```
 
 ### Notes and Tips
- - Use Conda environments to isolate and manage your project dependencies, making it easier to reproduce your work across different environments.
- - When working on a team or sharing your code, provide an environment YAML file (environment.yml) to ensure consistent setups across collaborators.
- - Regularly update your Conda installation and packages using the conda update command to benefit from the latest features and bug fixes.
- - Conda supports creating environments for different programming languages, including Python, R, and Julia.
- - You can create and manage environments with specific versions of Python and other packages to ensure compatibility with your code.
+- Use Conda environments to isolate and manage your project dependencies, making it easier to reproduce your work across different environments.
+- When working on a team or sharing your code, provide an environment YAML file (environment.yml) to ensure consistent setups across collaborators.
+- Regularly update your Conda installation and packages using the `conda update` command to benefit from the latest features and bug fixes.
+- Conda supports creating environments for different programming languages, including Python, R, and Julia.
+- You can create and manage environments with specific versions of Python and other packages to ensure compatibility with your code.
 
 ### Additional Resources
-- [Conda User Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
+- [Conda User Guide](https://docs.conda.io/projects/conda/en/latest/user-guide
+
+/index.html)
 - [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
 
 Feel free to explore this repository and refer to the code snippets and examples as you learn and work with Conda. If you have any questions or suggestions, feel free to open an issue or reach out to me.
